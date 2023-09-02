@@ -116,3 +116,5 @@ reset -> not maintant commit history
 
 `git rest  --hard  <commit id>`
 commit parrally -> --hard
+
+test check
