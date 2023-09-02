@@ -117,4 +117,6 @@ reset -> not maintant commit history
 `git rest  --hard  <commit id>`
 commit parrally -> --hard
 
-test check
+--soft: uncommit changes, changes are left staged (index).
+--mixed (default): uncommit + unstage changes, changes are left in working tree.
+--hard: uncommit + unstage + delete changes, nothing left.
